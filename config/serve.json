@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://rahulgupta.sharepoint.com/sites/Shareideas/Lists/Sharedlist/AllItems.aspx",
+      "customActions": {
+        "a313a48f-bf18-4e18-9767-9b302464b051": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "exportListItems": {
+      "pageUrl": "https://rahulgupta.sharepoint.com/sites/Shareideas/Lists/Sharedlist/AllItems.aspx",
+      "customActions": {
+        "a313a48f-bf18-4e18-9767-9b302464b051": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
